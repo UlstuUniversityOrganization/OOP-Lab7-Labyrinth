@@ -15,9 +15,9 @@ public class Game extends JPanel implements IDrawable, IUpdated{
 		blocksRegister = new BlocksRegister();
 		entityRegister = new EntityRegister();
 		mapManager = new MapManager();
-		mapManager.addMap("E:\\Университет\\ООП\\Лабы\\OOP-Lab7-Labyrinth\\Maps\\map1.txt");
-		mapManager.addMap("E:\\Университет\\ООП\\Лабы\\OOP-Lab7-Labyrinth\\Maps\\map2.txt");
-		mapManager.addMap("E:\\Университет\\ООП\\Лабы\\OOP-Lab7-Labyrinth\\Maps\\map3.txt");
+		mapManager.addMap("Maps/map1.txt");
+		mapManager.addMap("Maps/map2.txt");
+		mapManager.addMap("Maps/map3.txt");
 		//mapManager.setMap(0);
 	}
 
