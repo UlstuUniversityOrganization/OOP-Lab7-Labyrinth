@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class MapManager implements IDrawable, IUpdated{
 	public ArrayList<Map> maps;
-	public int activeMapID = 2;
+	public int activeMapID = 0;
 	public Map activatedMap;
 	
 	public MapManager()
