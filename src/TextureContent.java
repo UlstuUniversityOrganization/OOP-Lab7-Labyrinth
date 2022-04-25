@@ -21,7 +21,7 @@ public class TextureContent {
 			grassTexture = ImageIO.read(ClassLoader.getSystemResource("Textures/Block/grass.jpg"));
 			stoneTexture = ImageIO.read(ClassLoader.getSystemResource("Textures/Block/stone.png"));
 			lavaTexture = ImageIO.read(ClassLoader.getSystemResource("Textures/Block/lava.jpg"));
-			finishTexture = ImageIO.read(ClassLoader.getSystemResource("Textures/Block/finish.jpg"));
+			finishTexture = ImageIO.read(ClassLoader.getSystemResource("Textures/Block/finish.png"));
 			catTexture = ImageIO.read(ClassLoader.getSystemResource("Textures/Entity/cat.png"));
 			spike_offTexture = ImageIO.read(ClassLoader.getSystemResource("Textures/Block/spike_off.png"));
 			spike_onTexture = ImageIO.read(ClassLoader.getSystemResource("Textures/Block/spike_on.png"));
