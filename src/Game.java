@@ -18,7 +18,7 @@ public class Game extends JPanel implements IDrawable, IUpdated{
 		mapManager.addMap("Maps/map1.txt");
 		mapManager.addMap("Maps/map2.txt");
 		mapManager.addMap("Maps/map3.txt");
-		//mapManager.setMap(0);
+		mapManager.setMap(2);
 	}
 
 	public void paint(Graphics g) {
